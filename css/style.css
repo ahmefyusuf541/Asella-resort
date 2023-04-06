@@ -1,1 +1,18 @@
-
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.content:nth-child(2n){
+    flex-direction: row-reverse;
+}
